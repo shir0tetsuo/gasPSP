@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "limits.h": "c",
+        "pspkernel.h": "c"
+    },
+    "C_Cpp.default.includePath": [
+        // adjust as needed
+        "/home/inpw/pspdev/psp/sdk/include"
+    ]
+}
