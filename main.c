@@ -178,8 +178,8 @@ int main(void)
 		if (pad.Buttons & PSP_CTRL_RIGHT) pspDebugScreenPrintf("Right (cost-)\n");
 		if (pad.Buttons & PSP_CTRL_UP) pspDebugScreenPrintf("Up (km+)\n");
 		if (pad.Buttons & PSP_CTRL_DOWN) pspDebugScreenPrintf("Down (km-)\n");
-		if (pad.Buttons & PSP_CTRL_LTRIGGER) pspDebugScreenPrintf("L (litres/100km+)\n");
-		if (pad.Buttons & PSP_CTRL_RTRIGGER) pspDebugScreenPrintf("R (litres/100km-)\n");
+		if (pad.Buttons & PSP_CTRL_LTRIGGER) pspDebugScreenPrintf("L (litres/100km-)\n");
+		if (pad.Buttons & PSP_CTRL_RTRIGGER) pspDebugScreenPrintf("R (litres/100km+)\n");
 		if (pad.Buttons & PSP_CTRL_START) pspDebugScreenPrintf("Start (km+25)\n");
 		if (pad.Buttons & PSP_CTRL_SELECT) pspDebugScreenPrintf("Select (km-25)\n");
 		if (pad.Buttons & PSP_CTRL_CROSS) pspDebugScreenPrintf("Cross (cost-25)\n");
